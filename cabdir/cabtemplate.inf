@@ -1,0 +1,38 @@
+[Version]
+Signature = "$Windows NT$"
+Provider = "ITC"
+CESignature = "$Windows CE$"
+
+[CEDevice]
+BuildMax=0xE0000000                ; prevents popup message on PPC Second Edition devices
+
+[CEStrings]
+AppName = "!APPNAME!"
+;InstallDir="\"
+
+[SourceDisksNames]
+1 = ,"Zip File" ,,"tempinstall\"
+2 = ,"App Files",,"tempinstall\"
+3 =  ,"CESetup"  ,,"runtime\"
+
+[DefaultInstall]
+CopyFiles = Files.1
+AddReg = RegSettings.All
+CESetupDLL=SetupDll_zip2.dll
+
+[DestinationDirs]
+Files.1 = 0,"\Temp"
+;Files.1 = 0,%InstallDir%
+
+[SourceDisksFiles]
+SetupDll_zip2.ini      = 1
+!APPNAME!.zip           = 2
+SetupDll_zip2.dll      = 3
+
+[Files.1]
+!APPNAME!.zip,!APPNAME!.zip,,              0x40000000   ;overwrite no matter what
+SetupDll_zip2.ini,SetupDll_zip2.ini,,    0x40000000   ;overwrite no matter what
+
+[RegSettings.All]
+HKLM,"SOFTWARE\Microsoft\Shell\Rai",SessionTimeout,0x00010001,0       ; disable popup of today screen after period of inactivity
+HKLM,"SOFTWARE\Apps\ITC !APPNAME!",instl,0x00010001,0 ; set instl counter to zero

@@ -1,0 +1,45 @@
+<Items>
+  <Item>
+    <Number>0051000148704</Number>
+    <Description>ACME Herren Oberhemd</Description>
+    <PackageSize>1 kg</PackageSize>
+    <UnitPrice>12.99</UnitPrice>
+    <Price>12.25</Price>
+  </Item>
+  <Item>
+    <Number>0051000148728</Number>
+    <Description>Campbell Tomato Soup</Description>
+    <PackageSize>10.75 oz</PackageSize>
+    <UnitPrice>0.116</UnitPrice>
+    <Price>1.25</Price>
+  </Item>
+  <Item>
+    <Number>0027000390146</Number>
+    <Description>Hunts Tomato Sauce</Description>
+    <PackageSize>15 oz</PackageSize>
+    <UnitPrice>0.055</UnitPrice>
+    <Price>0.99</Price>
+  </Item>
+  <Item>
+    <Number>0024000162865</Number>
+    <Description>DelMonte Green Beans</Description>
+    <PackageSize>14.5 oz</PackageSize>
+    <UnitPrice>0.095</UnitPrice>
+    <Price>1.39</Price>
+  </Item>
+  <Item>
+    <Number>00350290541587013177</Number>
+    <Description>123</Description>
+    <PackageSize>456</PackageSize>
+    <UnitPrice>789</UnitPrice>
+    <Price>
+    </Price>
+  </Item>
+  <Item>
+    <Number>]C100350290541587013177</Number>
+    <Description>EPC Gen 2 Tag</Description>
+    <PackageSize>3x8</PackageSize>
+    <UnitPrice>0,92</UnitPrice>
+    <Price>1,25</Price>
+  </Item>
+</Items>

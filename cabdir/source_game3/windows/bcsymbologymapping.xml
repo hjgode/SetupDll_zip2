@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapping Type="BarcodeSymbologies" Version="2.0.0.0">
+
+	<!-- Note the MapID can not have the "|" character in it.  It is used as the field separator. -->
+
+	<Data MapID="Scanners|Symbologies|Code 39|Enable Code 39"					Path="CODE39.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Full ASCII Conversion"	Path="CODE39.FULLASCIICONVERSION" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Start/Stop transmission"	Path="CODE39.STARTSTOPTRANSMISSION" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Start character"			Path="CODE39.STARTCHARACTER" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Verify check digit"		Path="CODE39.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Transmit check digit"		Path="CODE39.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Reading range"			Path="CODE39.READINGRANGE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Reading tolerance"		Path="CODE39.READINGTOLERANCE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Length mode"				Path="CODE39.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Length 1"					Path="CODE39.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Length 2"					Path="CODE39.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Length 3"					Path="CODE39.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|Symbology ID"				Path="CODE39.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Enable UPC A"					Path="UPCEAN.ENABLEUPCA" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Enable UPC E"					Path="UPCEAN.ENABLEUPCE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Enable EAN 8"					Path="UPCEAN.ENABLEEAN8" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Enable EAN 13"				Path="UPCEAN.ENABLEEAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Enable UPC-E1"				Path="UPCEAN.ENABLEUPCE1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Add-on digits"				Path="UPCEAN.ADD_ONDIGITS" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Add-on 2 digits active"		Path="UPCEAN.ADD_ON2DIGITSACTIVE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Add-on 5 digits active"		Path="UPCEAN.ADD_ON5DIGITSACTIVE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|Add-on security"				Path="UPCEAN.ADD_ONSECURITY" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A check digit"			Path="UPCEAN.UPCACHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC E check digit"			Path="UPCEAN.UPCECHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 8 check digit"			Path="UPCEAN.EAN8CHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 13 check digit"			Path="UPCEAN.EAN13CHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A number sys"				Path="UPCEAN.UPCANUMBERSYS" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC E number sys"				Path="UPCEAN.UPCENUMBERSYS" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A leading zero"			Path="UPCEAN.UPCALEADINGZERO" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A xmit as EAN 13"			Path="UPCEAN.UPCAXMITASEAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC E xmit as UPC A"			Path="UPCEAN.UPCEXMITASUPCA" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 8 xmit as EAN 13"			Path="UPCEAN.EAN8XMITASEAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|ISBN conversion for EAN 13"		Path="UPCEAN.ISBNCONVERSIONFOREAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|ISMN conversion for EAN 13"		Path="UPCEAN.ISMNCONVERSIONFOREAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|ISSN conversion for EAN 13"		Path="UPCEAN.ISSNCONVERSIONFOREAN13" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|GTIN compliant"				Path="UPCEAN.GTINCOMPLIANT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A Symbology ID"			Path="UPCEAN.UPCASYMBOLOGYID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC E Symbology ID"			Path="UPCEAN.UPCESYMBOLOGYID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 8 Symbology ID"			Path="UPCEAN.EAN8SYMBOLOGYID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 13 Symbology ID"			Path="UPCEAN.EAN13SYMBOLOGYID" Type="ReaderCmd"/>
+
+
+    	<Data MapID="Scanners|Symbologies|Plessey|Enable Plessey"				Path="PLESSEY.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Transmit check digit" 	Path="PLESSEY.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Length mode"			Path="PLESSEY.LENGTHMODE" Type="ReaderCmd"/> 
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Length 1"			Path="PLESSEY.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Length 2"			Path="PLESSEY.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Length 3"			Path="PLESSEY.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|Symbology ID"			Path="PLESSEY.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|MSI|Enable MSI"						Path="MSI.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Verify check digit"		Path="MSI.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Transmit check digit"		Path="MSI.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Length 1"					Path="MSI.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Length 2"					Path="MSI.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Length 3"					Path="MSI.LENGTH3" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|MSI|Options|Length mode"				Path="MSI.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|Symbology ID"				Path="MSI.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|PDF417|Enable PDF417"											Path="PDF417.ENABLE" Type="Integer"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Macro PDF buffered"				Path="PDF417.MACROPDFBUFFERED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Control header transmission"		Path="PDF417.CONTROLHEADERTRANSMISSION" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Optional fields file name xmit"	Path="PDF417.OPTIONALFIELDSFILENAMEXMIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Segment count transmitted"		Path="PDF417.SEGMENTCOUNTTRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Time stamp transmitted"			Path="PDF417.TIMESTAMPTRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Sender transmitted"				Path="PDF417.SENDERTRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Addressee transmitted"			Path="PDF417.ADDRESSEETRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|File size transmitted"			Path="PDF417.FILESIZETRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Macro PDF417|Checksum transmitted"			Path="PDF417.CHECKSUMTRANSMITTED" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Symbology ID"						Path="PDF417.SYMBOLOGYID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|Irregular PDF" 					Path="PDF417.IRREGULARPDF" Type="ReaderCmd"/>
+ 
+
+	<Data MapID="Scanners|Symbologies|Code 93|Enable Code 93"			Path="CODE93.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|Length 1"			Path="CODE93.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|Length 2"			Path="CODE93.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|Length 3"			Path="CODE93.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|Length mode"		Path="CODE93.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|Symbology ID"		Path="CODE93.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Code 128|Enable Code 128"					Path="CODE128.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Length 1"				Path="CODE128.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Length 2"				Path="CODE128.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Length 3"				Path="CODE128.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Length mode"				Path="CODE128.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|EAN 128"					Path="CODE128.EAN128" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|EAN 128 identifier"		Path="CODE128.EAN128IDENTIFIER" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|ISBT 128"				Path="CODE128.ISBT128" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|ISBT concatenation xmit" Path="CODE128.ISBTCONCAT_TRANS_" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Concatenate ISBT codes"	Path="CODE128.CONCATENATEISBTCODES" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Check digit verify"		Path="CODE128.CHECKDIGITVERIFY" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Reading tolerance"		Path="CODE128.READERTOLERANCE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|GTIN compliant"		Path="CODE128.GTINCOMPLIANT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|UCC/EAN Code 128 Sym ID" Path="CODE128.UCC_EANCODE128SYMID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|ISBT Sym ID"				Path="CODE128.ISBTSYMID" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|FNC1 conversion"			Path="CODE128.FNC1CONVERSION" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Symbology ID"			Path="CODE128.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Enable I 2 of 5"				Path="INTERLEAVED2OF5.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Length mode"			Path="INTERLEAVED2OF5.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Case code"				Path="INTERLEAVED2OF5.CASECODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Verify check digit"	Path="INTERLEAVED2OF5.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Transmit check digit"	Path="INTERLEAVED2OF5.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Reading tolerance"		Path="INTERLEAVED2OF5.READINGTOLERANCE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Length 1"				Path="INTERLEAVED2OF5.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Length 2"				Path="INTERLEAVED2OF5.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Length 3"				Path="INTERLEAVED2OF5.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|Symbology ID"			Path="INTERLEAVED2OF5.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Enable Matrix 2 of 5"			Path="MATRIX2OF5.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Start/Stop"			Path="MATRIX2OF5.STARTSTOP" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Verify check digit"		Path="MATRIX2OF5.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Transmit check digit"		Path="MATRIX2OF5.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Length mode"			Path="MATRIX2OF5.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Length 1"				Path="MATRIX2OF5.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Length 2"				Path="MATRIX2OF5.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|Length 3"				Path="MATRIX2OF5.LENGTH3" Type="ReaderCmd"/>
+
+
+	<Data MapID="Scanners|Symbologies|Telepen|Enable Telepen"		Path="TELEPEN.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|Format"		Path="TELEPEN.FORMAT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|Length mode"	Path="TELEPEN.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|Length 1"		Path="TELEPEN.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|Length 2"		Path="TELEPEN.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|Length 3"		Path="TELEPEN.LENGTH3" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Code 11|Enable Code 11"				Path="CODE11.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Verify check digit"	Path="CODE11.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Transmit check digit" Path="CODE11.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Length mode"			Path="CODE11.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Length 1"				Path="CODE11.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Length 2"				Path="CODE11.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Length 3"				Path="CODE11.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|Symbology ID"			Path="CODE11.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Micro PDF417|Enable Micro PDF417"					Path="MICROPDF417.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Micro PDF417|Options|MicroPDF Code 128 emulation" Path="MICROPDF417.MICROPDFCODE128EMULATION" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Codablock A|Enable Codablock A" Path="CODABLOCKA.ENABLE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Codablock F|Enable Codablock F" Path="CODABLOCKF.ENABLE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|Enable EAN.UCC Composite A/B" Path="UCCCOMPOSITE.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|Enable EAN.UCC Composite C"   Path="UCCCOMPOSITE.ENABLECOMPOSITEC" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|UCC/EAN-128 Emulation"   	  Path="UCCCOMPOSITE.UCC_EAN_128_EMULATION" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|Linear only xmit mode"   	  Path="UCCCOMPOSITE.LINEARONLYXMITMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|UPC/EAN comp msg decode"   	  Path="UCCCOMPOSITE.UPC_EANCOMPMSGDECODE" Type="ReaderCmd"/>
+
+
+	<Data MapID="Scanners|Symbologies|RSS 14|Enable RSS 14"			Path="RSS14.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|RSS 14|Options|Symbology ID"	Path="RSS14.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|RSS Limited|Enable RSS Limited"	Path="RSSLIMITED.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|RSS Limited|Options|Symbology ID" Path="RSSLIMITED.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|RSS Expanded|Enable RSS Expanded"	 Path="RSSEXPANDED.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|RSS Expanded|Options|Symbology ID" Path="RSSEXPANDED.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Maxicode|Enable Maxicode"		 Path="MAXICODE.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Maxicode|Options|Mode 0"		 Path="MAXICODE.MODE0" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Maxicode|Options|Symbology ID" Path="MAXICODE.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|DataMatrix|Enable DataMatrix"		Path="DATAMATRIX.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|DataMatrix|Options|Symbology ID"	Path="DATAMATRIX.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|QR Code|Enable QR Code"		Path="QRCODE.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|QR Code|Options|Symbology ID" Path="QRCODE.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Enable Code 2 of 5"			Path="CODE2OF5.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Format"				Path="CODE2OF5.FORMAT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Verify check digit"	Path="CODE2OF5.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Transmit check digit" Path="CODE2OF5.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Length mode"			Path="CODE2OF5.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Length 1"				Path="CODE2OF5.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Length 2"				Path="CODE2OF5.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Length 3"				Path="CODE2OF5.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|Symbology ID"			Path="CODE2OF5.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Codabar|Enable Codabar"						Path="CODABAR.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Codabar type"					Path="CODABAR.CODABARTYPE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Start/Stop transmit"			Path="CODABAR.STARTSTOPTRANSMIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|CLSI library system"			Path="CODABAR.CLSILIBRARYSYSTEM" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Verify check digit"			Path="CODABAR.VERIFYCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Transmit check digit"			Path="CODABAR.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Transmit ABC Start/Stop"		Path="CODABAR.TRANSMITABCSTARTSTOP" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Transmit Concat Start/Stop"	Path="CODABAR.TRANSMITCONCATSTARTSTOP" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Concatenation"				Path="CODABAR.CONCATENATION" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Concatenation mode"			Path="CODABAR.CONCATENATIONMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Length mode"					Path="CODABAR.LENGTHMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Length 1"						Path="CODABAR.LENGTH1" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Length 2"						Path="CODABAR.LENGTH2" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Length 3"						Path="CODABAR.LENGTH3" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|Symbology ID"					Path="CODABAR.SYMBOLOGYID" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Postnet|Enable Postnet"					Path="POSTNET.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Postnet|Options|Transmit check digit"			Path="POSTNET.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Planet|Enable Planet"					Path="PLANET.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Planet|Options|Transmit check digit"			Path="PLANET.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|BPO|Enable BPO"					Path="BPO.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|BPO|Options|Transmit check digit"			Path="BPO.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|CanadaPost|Enable CanadaPost"					Path="CANADAPOST.ENABLE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|AustraliaPost|Enable AustraliaPost"				Path="AUSTRALIAPOST.ENABLE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|JapanPost|Enable JapanPost"					Path="JAPANPOST.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|JapanPost|Options|Transmit check digit"			Path="JAPANPOST.TRANSMITCHECKDIGIT" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|DutchPost|Enable DutchPost"					Path="DUTCHPOST.ENABLE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Aztec|Enable Aztec"						Path="AZTEC.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Aztec|Options|Structured Append Mode"				Path="AZTEC.STRUCTUREDAPPENDMODE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|Aztec|Options|Runes"						Path="AZTEC.RUNES" Type="ReaderCmd"/>	
+	<Data MapID="Scanners|Symbologies|Aztec|Options|EAN128 Emulation"				Path="AZTEC.EAN128EMULATION" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|TLC 39|Enable TLC 39"						Path="TLC39.ENABLE" Type="ReaderCmd"/>
+	<Data MapID="Scanners|Symbologies|TLC 39|Options|Linear only xmit mode"				Path="TLC39.LINEARONLYXMITMODE" Type="ReaderCmd"/>
+
+	<Data MapID="Scanners|Symbologies|Interleaved 2 of 5|Options|User defined symbology ID" Path="INTERLEAVED2OF5.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|MSI|Options|User defined symbology ID"				Path="MSI.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|PDF417|Options|User defined symbology ID"				Path="PDF417.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Plessey|Options|User defined symbology ID"			Path="PLESSEY.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 2 of 5|Options|User defined symbology ID"		Path="CODE2OF5.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 11|Options|User defined symbology ID"			Path="CODE11.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|User defined symbology ID"			Path="CODABAR.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Codabar|Options|User defined symbology ID"			Path="CODE2OF5.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Matrix 2 of 5|Options|User defined symbology ID"		Path="MATRIX2OF5.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Telepen|Options|User defined symbology ID"			Path="TELEPEN.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Micro PDF417|Options|User defined symbology ID"		Path="MICROPDF417.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Codablock F|Options|User defined symbology ID"		Path="CODABLOCKF.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Codablock A|Options|User defined symbology ID"		Path="CODABLOCKA.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|A/B User defined symbology ID"		Path="UCCCOMPOSITE.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|EAN.UCC Composite|C User defined symbology ID"		Path="UCCCOMPOSITE.USERDEFINEDSYMBOLOGYIDC" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 39|Options|User defined symbology ID"			Path="CODE39.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|RSS 14|Options|User defined symbology ID"				Path="RSS14.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|RSS Limited|Options|User defined symbology ID"		Path="RSSLIMITED.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|RSS Expanded|Options|User defined symbology ID"		Path="RSSEXPANDED.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Maxicode|Options|User defined symbology ID"			Path="MAXICODE.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|DataMatrix|Options|User defined symbology ID"			Path="DATAMATRIX.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|QR Code|Options|User defined symbology ID"			Path="QRCODE.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 93|Options|User defined symbology ID"			Path="CODE93.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|Code 128 User def sym ID"			Path="CODE128.CODE128USERDEFSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Code 128|Options|EAN 128 User def sym ID"				Path="CODE128.EAN128USERDEFSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC A user defined sym ID"					Path="UPCEAN.UPCAUSERDEFINEDSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|UPC E user defined sym ID"					Path="UPCEAN.UPCEUSERDEFINEDSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 8 user defined sym ID"					Path="UPCEAN.EAN8USERDEFINEDSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|UPC/EAN|EAN 13 user defined sym ID"					Path="UPCEAN.EAN13USERDEFINEDSYMID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Postnet|Options|User defined symbology ID"			Path="POSTNET.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Planet|Options|User defined symbology ID"			Path="PLANET.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|BPO|Options|User defined symbology ID"			Path="BPO.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|CanadaPost|Options|User defined symbology ID"			Path="CANADAPOST.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|AustraliaPost|Options|User defined symbology ID"		Path="AUSTRALIAPOST.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|JapanPost|Options|User defined symbology ID"			Path="JAPANPOST.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|DutchPost|Options|User defined symbology ID"			Path="DUTCHPOST.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|Aztec|Options|User defined symbology ID"			Path="AZTEC.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|TLC 39|Options|ECI Security"					Path="TLC39.ECISECURITY" Type="Octet String"/>
+	<Data MapID="Scanners|Symbologies|TLC 39|Options|User defined symbology ID"			Path="TLC39.USERDEFINEDSYMBOLOGYID" Type="Octet String"/>
+
+
+	<Data MapID="Scanners|Symbology Options|Preamble"						Path="PREAMBLE" Type="Octet String"/>
+	<Data MapID="Scanners|Symbology Options|Postamble"						Path="POSTAMBLE" Type="Octet String"/>
+	<Data MapID="Scanners|Symbology Options|Global symbology ID"					Path="GLOBALSYMBOLOGYID" Type="ReaderCmd"/>
+</DataMapping>

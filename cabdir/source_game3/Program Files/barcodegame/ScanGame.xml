@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<ScanGame>
+  <ScanGameTbl>
+    <id>0</id>
+    <Name>Mustermann</Name>
+    <Vorname>Rolf</Vorname>
+    <Firma>MusterFirma</Firma>
+    <eMail>rm@mustermann.de</eMail>
+    <Time>37514</Time>
+    <Date>2010-04-20T00:00:00+02:00</Date>
+    <IntermecPartner>false</IntermecPartner>
+    <ChallengeGame>false</ChallengeGame>
+  </ScanGameTbl>
+  <ScanGameTbl>
+    <id>1</id>
+    <Name>Mustermann</Name>
+    <Vorname>Rolf</Vorname>
+    <Firma>MusterFirma</Firma>
+    <eMail>rm@mustermann.de</eMail>
+    <Time>55772</Time>
+    <Date>2010-04-21T00:00:00+02:00</Date>
+    <IntermecPartner>false</IntermecPartner>
+    <ChallengeGame>false</ChallengeGame>
+  </ScanGameTbl>
+</ScanGame>

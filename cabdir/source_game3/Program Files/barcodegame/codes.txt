@@ -1,0 +1,10 @@
+DATAMATRIX96MINI
+DATAMATRIX120MILS300
+PDF417_10MILS_150DPI
+CODE39
+tel:(49)211-53601-0
+ quadrus test label 
+304093407
+EFLJJ01A
+Intermec Technologies Corporation
+Intermec Technologies Corporation
