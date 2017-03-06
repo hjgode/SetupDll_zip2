@@ -13,11 +13,6 @@
 
 #include <Pm.h>
 
-//#ifndef DEBUG
-//	#include "itc50.h"
-//	#pragma comment (lib, "itc50.lib")
-//#endif
-
 #include "nclog.h"
 
 #define TH32CS_SNAPNOHEAPS 0x40000000
